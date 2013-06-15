@@ -67,6 +67,8 @@ public class MineAssist extends JavaPlugin {
 		if (!new File(getDataFolder(), "config.yml").exists()) {
 			this.saveDefaultConfig();
 		}
+
+		this.reloadConfig();
 		FileConfiguration config = this.getConfig();
 
 		globalConfig.enable = config.getBoolean("Main.Automatic Ore Destruction");

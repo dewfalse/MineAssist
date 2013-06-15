@@ -1,0 +1,7 @@
+name: MineAssist
+main: com.github.dewfalse.MineAssist.MineAssist
+version: 1.0
+commands:
+   MineAssist:
+      description: MineAssist command.
+      usage: /<command> [ON/OFF/TOGGLE/TOOLS/ORES/RELOAD] <target>

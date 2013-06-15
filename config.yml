@@ -1,0 +1,28 @@
+Main:
+  Automatic Ore Destruction: true
+  Use Permissions: false
+Ores:
+  Ores List:
+  - GOLD_ORE
+  - IRON_ORE
+  - COAL_ORE
+  - DIAMOND_ORE
+  - REDSTONE_ORE
+  - GLOWING_REDSTONE_ORE
+  - EMERALD_ORE
+  - LAPIS_ORE
+  - QUARTZ_ORE
+  - GLOWSTONE
+Tools:
+  Ore Destruction Require Tools: true
+  Apply Full Tool Damage: true
+  Tools List:
+  - DIAMOND_PICKAXE
+  - WOOD_PICKAXE
+  - GOLD_PICKAXE
+  - IRON_PICKAXE
+  - STONE_PICKAXE
+Worlds:
+  Enable Per World: false
+  Enabled Worlds:
+  - world
